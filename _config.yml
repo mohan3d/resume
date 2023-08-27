@@ -6,100 +6,130 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+# name: Your Name
+
+# email: Your email (optional)
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+# phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
 # website_title: Web (Website title override)
+name: Mohanad Elsafty
+title: Senior Data Engineer
+location: Singapore, Singapore
+phone: +65-88498090
+email: mohanad.elsafty@outlook.com
+website: https://github.com/mohan3d/resume
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+github_username:  mohan3d
+linkedin_username: mohanad-elsafty
 
 # Additional icon links
 additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
+- title: Bitbucket
+  icon: fab fa-bitbucket
+  url: https://bitbucket.org/mohan3d/workspace/repositories
 
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+- title: Hackerrank
+  icon: fab fa-brands fa-hackerrank
+  url: https://www.hackerrank.com/mohaned
+
+- title: Leetcode
+  icon: fab fa-solid fa-l
+  url: https://leetcode.com/mohan3d
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: /images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  I am a Data Engineer with a proven track record of optimizing big data pipelines and architecting scalable solutions. 
+  My expertise in Amazon AWS, Apache Spark, Hadoop, Ozone and distributed systems has empowered me to enhance performance and efficiency across projects. 
+  I like working on distributed systems and data on a big scale.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
   - title: Experience
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+      - layout: left
+        title: Singtel
+        sub_title: Technical Lead
+        caption: Aug 2023 - Present
+        link: https://www.singtel.com
         quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+          Singapore Telecommunications
+        description: |
+          - Building the data fabric solution of Singtel
+          > Apache Spark, Apache Hadoop, Apache Airflow, Amazon AWS, Microsot Azure, Python, Rust, Scala.
+
+      - layout: left
+        title: Shopee
+        sub_title: Senior Data Infrastructure Engineer
+        caption: Jan 2021 - Aug 2023
+        link: https://shopee.sg
+        quote: >
+          E-commerce company
+        description: |
+          - Enhanced Spark history server, resulting in 80% performance improvement with larger datasets.
+          - Developed logs aggregation for Yarn/HDFS logs, saving 3 hours weekly.
+          - Designed low-memory fingerprint for extended offline analysis of FSIMAGE.
+          - Engineered block-based InputFormat for DistCp, shortening data transfer time by 20%.
+          - Enhanced DFSClient and NameNode for read/write operations.
+          - Engineered petabyte-scale data Retention Service, saving 15% of storage.
+          - Architected universal s3gateway solution for multiple clusters access.
+          - Devised efficient fair call queue and Quality of Service mechanisms for s3gateway.
+          > Apache Spark, Apache Hadoop/HDFS, Apache Ozone, Apache Airflow, Apache Ratis, AWS, RocksDB, Kubernetes, Golang, Scala, Java, JavaScript, C++
+      
+      - layout: left
+        title: GFG - Global Fashion Group
+        sub_title: Data Engineer
+        caption: Jan 2019 - Dec 2020
+        link: https://global-fashion-group.com
+        quote: >
+          E-commerce company
+        description: |
+          - Revamped ZMM system, reducing runtime by 41% and cost by 70.6%.
+          - Optimized SQL queries on Amazon Redshift, reducing ingestion time by 66%.
+          - Pioneered media attribution model based on Hidden Markov model.
+          - Collaborated on visualization of model outcomes using Apache Superset.
+          - Led development of automated price prediction system, optimizing training time.
+          - Devised data ingestion techniques and optimized cluster size.
+          > AWS(S3, EMR, ECS, EKS, CodeBuild), Apache Airflow, Python, PySpark, R, SQL, Pandas, NumPy, Notebooks
+
+      - layout: left
+        title: SigmaProIT
+        sub_title: Full Stack Developer
+        caption: Dec 2017 - Sep 2018
+        link: https://sigmaproit.com
+        quote: >
+          IT Services and IT Consulting 
+        description: |
+          - Developed VOIP android application and dedicated webservice.
+          - Participated in mobile application development and optimized backend API response time.
+          > Python, Django, NodeJS, Angular, Ionic
+
+      - layout: left
+        title: Cloudypedia
+        sub_title: Software Engineer
+        caption: Apr 2016 - Nov 2017
+        link: https://www.cloudypedia.com
+        quote: >
+          IT Services and IT Consulting 
+        description: |
+          - Constructed certification module with Arabic language support.
+          - Built filter and tagging module for optimized search on OpenEDX.
+          - Designed GoogleAppEngine-based web application and crafted python wrappers for G-Suite APIs.
+          > Google Cloud, GoogleAppEngine, Python, Django, ElasticSearch, OpenEDX
+
   - title: Education
     layout: list
     content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+      - layout: top-left
+        title: Ain Shams University
+        sub_title: B.Sc. in Computer Science and Information Systems
+        caption: 2011 - 2015
         quote: >
           Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
@@ -107,9 +137,7 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
 footer_show_references: true
@@ -117,7 +145,7 @@ footer_show_references: true
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+remote_theme: mohan3d/resume
 
 sass:
   sass_dir: _sass

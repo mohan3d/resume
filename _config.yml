@@ -8,17 +8,12 @@ version: 2
 # Personal info
 # name: Your Name
 
-# email: Your email (optional)
-# email_title: Email (Email title override)
-# phone: Your phone number (optional)
-# phone_title: Phone (Phone title override)
-# website_title: Web (Website title override)
 name: Mohanad Elsafty
 title: Senior Data Engineer
 location: Singapore, Singapore
 phone: +65-88498090
 email: mohanad.elsafty@outlook.com
-website: https://github.com/mohan3d/resume
+website: https://mohan3d.github.io/resume/
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -29,6 +24,11 @@ linkedin_username: mohanad-elsafty
 
 # Additional icon links
 additional_links:
+- title: CV
+  icon: fa fa-file-text
+  # url: https://mohan3d.github.io/resume/mohanad.elsafty.cv.pdf
+  url: mohanad.elsafty.cv.pdf
+
 - title: Bitbucket
   icon: fab fa-bitbucket
   url: https://bitbucket.org/mohan3d/workspace/repositories
@@ -37,9 +37,9 @@ additional_links:
   icon: fab fa-brands fa-hackerrank
   url: https://www.hackerrank.com/mohaned
 
-- title: Leetcode
-  icon: fab fa-solid fa-l
-  url: https://leetcode.com/mohan3d
+# - title: Leetcode
+#   icon: fa fa-solid fa-code
+#   url: https://leetcode.com/mohan3d
 
 # About Section
 # about_title: About Me (Use this to override about section title)

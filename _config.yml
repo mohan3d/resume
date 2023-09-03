@@ -26,7 +26,7 @@ linkedin_username: mohanad-elsafty
 additional_links:
 - title: CV
   icon: fa fa-file-text
-  url: /mohanad.elsafty.cv.pdf
+  url: /resume/mohanad.elsafty.cv.pdf
 
 - title: Bitbucket
   icon: fab fa-bitbucket

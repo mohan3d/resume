@@ -27,6 +27,13 @@
             </a>
           </li>
         {%- endif -%}
+        {%- if site.resume -%}
+          <li>
+            <a target="_blank" href="{{ site.resume | relative_url }}" class="button button--sacnite button--round-l">
+              <i class="fa fa-file-text" title="CV"></i>
+            </a>
+          </li>
+        {%- endif -%}
         {%- if site.github_username -%}
           <li>
             <a target="_blank" href="https://github.com/{{ site.github_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">

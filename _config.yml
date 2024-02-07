@@ -64,6 +64,10 @@ content:
         description: |
           - Building the data fabric solution of Singtel
           > Apache Spark, Apache Hadoop, Apache Airflow, Amazon AWS, Microsot Azure, Python, Rust, Scala.
+          - Developed an encryption solution ensuring secure transfer of sensitive data to the cloud. 
+          - Integrated with existing frameworks, including Apache Spark, by providing User-Defined Functions (UDFs) in Java for encrypting, decrypting, and HMAC operations on DataFrame columns.
+          - Developed a Kafka plugin to encrypt or HMAC messages during transmission, ensuring data security from source to sink. Decryption is performed at the receiving end, maintaining data integrity throughout the data pipeline.
+          > Java, Scala, Python, Google Tink
 
       - layout: left
         title: Shopee

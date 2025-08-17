@@ -9,9 +9,9 @@ version: 2
 # name: Your Name
 
 name: Mohanad Elsafty
-title: Senior Data Engineer
-location: Singapore, Singapore
-phone: +65-88498090
+title: Software Development Engineer
+location: Dublin, Ireland
+phone: +353-870002865
 email: mohanad.elsafty@outlook.com
 website: https://mohan3d.github.io/resume/
 # baseurl: /resume
@@ -55,9 +55,25 @@ content:
     layout: list
     content:
       - layout: left
+        title: Amazon Web Services (AWS) — DynamoDB 
+        sub_title: Software Development Engineer II (L5)
+        caption: Sep 2024 - Present
+        link: https://aws.amazon.com/dynamodb/
+        quote: >
+          Amazon Web Services (AWS) - Dublin, Ireland
+        description: |
+          - Building DynamoDB MemDS (In-Memory MetaData Storage)
+          > Java, Rust, C++, Python, UDP/TCP.
+          - Engineered core in-memory metadata service (Java) for DynamoDB, serving billions of requests/sec with ultra-low latency. 
+          - Designed and implemented sharding architecture to distribute metadata across hosts, reducing memory footprint and improving scalability.
+          - Built shard discovery protocol (Rust) for clients, including heartbeat and failure-detection mechanisms; delivered full end-to-end implementation.
+          - Automated deployments and scaling across AWS regions; benchmarked new features and optimized low-level performance (ENI, RSS tables, IRQ).
+          - Handled on-call operations, resolving critical production incidents and troubleshooting infrastructure issues.
+          
+      - layout: left
         title: Singtel
         sub_title: Technical Lead
-        caption: Aug 2023 - Present
+        caption: Aug 2023 - Sep 2024
         link: https://www.singtel.com
         quote: >
           Singapore Telecommunications
